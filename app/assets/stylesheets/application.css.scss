@@ -33,8 +33,13 @@ body {
   padding: 20px;
 }
 #menu {
-  background: url(../images/grad2.gif) repeat-x scroll center top #2C79B3;
+  background: url(../grad2.gif) repeat-x scroll center top #2C79B3;
   height:32px;
+}
+
+#menuback {
+  background:url(../shadow.gif) repeat-x scroll center bottom transparent;
+  height:37px;
 }
 
 #menu ul {
@@ -45,7 +50,6 @@ body {
   padding: 0px;
   display: block;
   li {
-    margin-right: 10px;
     float:left;
     border-right:1px solid #75AAD2;
     a {
@@ -59,7 +63,7 @@ body {
       font-size: 100%;
     }
     &.selected a, a:hover {
-      background: url(../images/grad2-1.gif) repeat-x scroll center top #2b6484;
+      background: url(../grad2-1.gif) repeat-x scroll center top #2b6484;
       color: #fff;
     }
   }
