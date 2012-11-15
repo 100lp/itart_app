@@ -20,31 +20,47 @@ body {
 
 #body_content {
   float: left;
-  width: 45%;
+  width: 80%;
   background: white;
   color: #333;
   padding: 20px;
 }
 #side_body_content {
   float: left;
-  width: 45%;
+  width: 10%;
   background: white;
   color: #333;
   padding: 20px;
 }
+#menu {
+  background: url(../images/grad2.gif) repeat-x scroll center top #2C79B3;
+  height:32px;
+}
+
 #menu ul {
+  clear: both;
+  content: ".";
+
   list-style: none;
   padding: 0px;
+  display: block;
   li {
-    float: left;
     margin-right: 10px;
+    float:left;
+    border-right:1px solid #75AAD2;
     a {
       display: block;
-      padding: 5px 10px;
+      padding: 0px 20px;
       text-decoration: none;
+      border-right:1px solid #2B6484;
+      color:#C3DBED;
+      font-weight:bold;
+      line-height:32px;
+      font-size: 100%;
     }
     &.selected a, a:hover {
-      background: #CCC;
+      background: url(../images/grad2-1.gif) repeat-x scroll center top #2b6484;
+      color: #fff;
     }
   }
 }
